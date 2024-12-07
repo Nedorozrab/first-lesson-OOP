@@ -1,4 +1,4 @@
-class Rab:
+class people:
     def __init__(self, name, age):
         self.name = name
         self.age = age
@@ -13,8 +13,8 @@ class Rab:
         print(f"age - {self.age}")
 
 
-rab2 = Rab(name = "rab2", age=40)
-rab2.greeting()
+people1 = people(name = "oleg", age=40)
+people1.greeting()
 
-rab1 = Rab(name = "rabb", age=20)
-rab1.greeting()
+people2 = people(name = "dima", age=20)
+people2.greeting()
